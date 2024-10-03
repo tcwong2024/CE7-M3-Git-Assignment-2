@@ -35,3 +35,13 @@ GitHub authentication is the process of verifying a user's identity to allow acc
 |git log --oneline	|Shows the commit history in a simplified, single-line format.|
 |git tag `<tag-name>`	|Creates a tag at the current commit, useful for marking releases.|
 |git diff `<branch>`	|Compares changes between your branch and another branch.|
+
+### Frequently Used GitHub Commands for Real-World Projects : 
+
+|Command	|Description	|Why Use It?|
+|-----|-----|-----|
+|git clone `<repo-url>`	|Clones a repository from GitHub to your local machine.	|Essential for starting work on an existing project by downloading its complete codebase.|
+|git commit -m `"<message>"`	|Records changes to the repository with a descriptive message.	|Important for maintaining a clear history of changes, making it easier to track progress and collaborate.|
+|git push origin `<branch>`	|Pushes local changes to the specified branch on the remote repository (GitHub).	|Necessary for sharing your work with team members and ensuring that the latest changes are available.|
+|git pull	|Fetches and merges changes from the remote repository into your current branch.	|Crucial for keeping your local branch up to date with the latest changes made by others in the project.|
+|git checkout `<branch>`	|Switches to the specified branch in your local repository.	|Useful for working on different features or bug fixes without affecting the main codebase.|
